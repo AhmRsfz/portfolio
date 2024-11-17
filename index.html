@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfolio | Ahmad Riski Fauzi</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	    <link rel="preconnect" href="https://fonts.googleapis.com" />
+	    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet"/>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<a href="#">Home</a>
+				<a href="#about">About</a>
+				<a href="#contact">Contact</a>
+			</nav>
+		</header>
+
+		<main>
+			<div class="content">
+				<article style="display: flex;">
+					<div>
+						<h1>Ahmad Riski Fauzi</h1>
+						<p>Hello, my name is Ahmad Riski Fauzi. I'm a second-year student at SMK Wahidin, Cirebon</p>
+					</div>
+					<img src="img/foto.jpg">
+				</article>
+
+				<hr id="about"/>
+				<article class="border-bottom">
+					<h1>About</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</article>
+
+				<hr id="contact">
+
+				<article class="border-bottom">
+					<h1>Contact</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					<div class="flex">
+						<figure>
+							<a href="https://www.linkedin.com/in/ahmad-riski-fauzi-66043731b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" height="40px" /></a>
+							<figcaption>
+								Linkedin
+							</figcaption>
+						</figure>
+
+						<figure>
+							<a href="https://github.com/AhmRsfz"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" height="40px" alt="github" /></a>
+							<figcaption>Github</figcaption>
+						</figure>
+
+						<figure>
+							<a href="https://stackoverflow.com/users/26836953/ahmad-riski-fauzi"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/stackoverflow/stackoverflow-original.svg" height="40px" /></a>
+							<figcaption>Stack Overflow</figcaption>
+						</figure>
+					</div>
+				</article>
+
+
+			</div>
+			<aside>
+				<div class="sidebar" id="sidebar">
+					<h1 class="text-color">Skills</h1>
+
+					<div class="flex">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40px" />
+						<b>1.5 years</b>
+					</div>
+
+					<div class="flex">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/height="40px" >
+						<b>9 months</b>
+					</div>
+
+					<div class="flex">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/height="40px" >
+						<b>9 months</b>
+					</div>
+
+					<div class="flex">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-plain.svg" height="40px" />
+						<b>9 months</b>
+					</div>
+
+					<div class="flex">
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg" height="40px" />
+						<b>9 months</b>
+					</div>
+
+					<h1 class="text-color">Tech stack</h1>
+
+					<div class="flex">
+						<b>Laravel</b>
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" height="40px" />
+					</div>
+
+					<div class="flex">
+						<b>Linux</b>
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-plain.svg" height="40px" />
+					</div>
+
+					<div class="flex">
+						<b>Apache</b>
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-plain.svg" height="40px" />
+					</div>
+
+					<div class="flex">
+						<b>MariaDB</b>
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original.svg" height="40px" />
+					</div>
+
+					<div class="flex">
+						<b>PHP</b>
+						<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-plain.svg" height="40px" />
+
+					</div>
+
+
+				</div>
+			</aside>
+		</main>
+
+		<footer>
+			<h3>&copy; Ahmad Riski Fauzi</h3>
+		</footer>
+
+		<script>
+			function toggle() {
+				const aside = document.getElementsByTagName('aside');
+
+				aside.innerHTML = `<h1>ggg</h1>`;
+
+				// if (aside) {
+				// 	aside.style.display = "none";
+				// }
+				// else {
+				// 	aside.style.display = "block";
+				// }
+
+			}
+		</script>
+
+	</body>
+</html>
